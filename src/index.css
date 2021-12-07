@@ -64,7 +64,6 @@ input:focus {
     margin: 0 32px 32px 32px;
     overflow: hidden;
     white-space: nowrap;
-    justify-content: space-around;
     background-color: #f8f9f9;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
