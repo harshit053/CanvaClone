@@ -1,10 +1,10 @@
 import { BsStarFill } from 'react-icons/bs'
 
-const Designs = () => {
+const Designs = ({ text, changeActiveDesigns }) => {
     return (
         <div className="design-btn">
-            <button className="design"><BsStarFill /></button>
-            <p className="design-text">Text</p>
+            <button className="design" onClick={() => changeActiveDesigns(text)}><BsStarFill /></button>
+            <p className="design-text">{text}</p>
         </div>
     )
 }

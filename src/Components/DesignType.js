@@ -1,10 +1,14 @@
 
-const DesignType = () => {
+const DesignType = ({ designType }) => {
     return (
-        <div className="design-type-container">
-            <a href="#design"><img src="https://via.placeholder.com/192x143" alt="" className="design-type" /></a>
-            <p>Insert Text Here</p>
-        </div>
+        <>
+            { designType.display ? designType.texts.map((text) => (
+                <div className="design-type-container">
+                    <a href="#design"><img src="https://via.placeholder.com/192x143" alt="" className="design-type" /></a>
+                    <p>{text}</p>
+                </div>
+            )) : ""}
+        </>
     )
 }
 

@@ -41,12 +41,16 @@ input:focus {
     outline: none;
 }
 
+.search {
+    position: relative;
+}
+
 .search-icon {
     position: absolute;
     color: black;
     font-size: 28px;
-    top: 25.5%;
-    margin-left: 7px;
+    top: 7px;
+    left: 9px;
 }
 
 .design {
@@ -60,6 +64,7 @@ input:focus {
 }
 
 .scroll-menu {
+    /* position: relative; */
     display: flex;
     margin: 0 32px 32px 32px;
     overflow: hidden;
@@ -75,6 +80,43 @@ input:focus {
     margin: 10px;
 }
 
+.designs-type-container {
+    display: flex;
+    flex-direction: row;
+    transition: 0.5s all ease-out;
+}
+
 .design-type {
     border-radius: 5px;
+}
+
+.scroll-menu .btn-scroll {
+    background-color: #fff;
+    color: #999;
+    box-shadow: 0 0 10px #999;
+    padding: 5px 8px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.scroll-menu .btn-scroll:hover {
+    border: 1px solid blue;
+    color: blue;
+}
+
+#btn-scroll-left {
+    position: absolute;
+    top: 418px;
+    left: 7px;
+}
+
+#btn-scroll-right {
+    position: absolute;
+    top: 418px;
+    right: 7px;
 }
