@@ -1,3 +1,5 @@
+// This component provides a container for various sub-designs that are contained within the designs tab
+
 import DesignType from './DesignType'
 import { BsChevronLeft } from 'react-icons/bs'
 import { BsChevronRight } from 'react-icons/bs'

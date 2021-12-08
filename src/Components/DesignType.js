@@ -1,3 +1,4 @@
+// This component represents the single sub-design which receives a prop to denote the name of that sub-design.
 
 const DesignType = ({ designType }) => {
     return (

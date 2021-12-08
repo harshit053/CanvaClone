@@ -1,3 +1,5 @@
+// Navbar component imported directly from react-bootstrap
+
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
@@ -8,7 +10,7 @@ import { AiOutlineQuestionCircle } from 'react-icons/ai'
 const NavBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="#home">Canva</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

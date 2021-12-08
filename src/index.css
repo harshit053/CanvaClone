@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-around;
     color: white;
-    margin: 32px 32px 0 32px;
+    margin: 100px 32px 0 32px;
     height: 248px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -119,4 +119,25 @@ input:focus {
     position: absolute;
     top: 418px;
     right: 7px;
+}
+
+.content {
+    display: flex;
+    margin: 150px;
+}
+
+.image {
+    margin-right: 30px;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px;
 }
